@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suraj Bhoumick - Portfolio</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="container">
+      <a href="#" class="logo">Suraj Bhoumick</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <h1>Suraj Bhoumick</h1>
+      <p>Computer Science Student | Aspiring Software Developer | Innovator in AI & Web Development</p>
+      <div class="cta-buttons">
+        <a href="#projects" class="btn">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <img src="11zon_cropped.png" alt="Suraj Bhoumick">
+        <p>
+          I'm a motivated Computer Science and Engineering student at Amity University with a strong foundation in software development, algorithms, and data structures. I am passionate about building innovative solutions using AI, machine learning, and web development. I have experience in organizing events, developing web applications, and participating in hackathons, where I thrive under pressure and collaborate effectively with teams.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Number Plate Detection</h3>
+          <p>Uses computer vision and OCR to detect and read vehicle license plates from images or video feeds.</p>
+        </div>
+        <div class="project-card">
+          <h3>Plant Disease Detection</h3>
+          <p>Identifies diseases in plants from images using computer vision and machine learning.</p>
+        </div>
+        <div class="project-card">
+          <h3>Personal Portfolio Website</h3>
+          <p>A professional website showcasing my projects, skills, and experience.</p>
+        </div>
+        <div class="project-card">
+          <h3>Hand Gesture Control</h3>
+          <p>Enables interaction with devices using hand movements and computer vision.</p>
+        </div>
+        <div class="project-card">
+          <h3>Load-Bearing Capacity of Buildings</h3>
+          <p>Evaluates the weight a building can safely support using structural analysis.</p>
+        </div>
+        <div class="project-card">
+          <h3>Med App</h3>
+          <p>A healthcare app for managing medical records, tracking medications, and setting reminders.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">Project Management</div>
+        <div class="skill">AIML</div>
+        <div class="skill">Kotlin & MySQL</div>
+        <div class="skill">Python / Java / C / C++</div>
+        <div class="skill">Web Development</div>
+        <div class="skill">Communication</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Feel free to reach out for collaborations or opportunities!</p>
+      <div class="contact-info">
+        <a href="mailto:surajbhoumick360@gmail.com"><i class="fas fa-envelope"></i> surajbhoumick360@gmail.com</a>
+        <a href="tel:+919833710429"><i class="fas fa-phone"></i> +91 9833710429</a>
+      </div>
+      <div class="social-links">
+        <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Suraj Bhoumick. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript for Smooth Scrolling -->
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+</html>
